@@ -19,7 +19,7 @@ from src.modal_services.app_config import (
 # Configure logging after all imports
 logging.basicConfig(level=logging.INFO)
 
-REPO_ID = "lisekarimi/smart-deal-finder-models"
+REPO_ID = "SHAH-MEER/DealFinder"
 
 # Local paths inside Modal volume
 ENSEMBLE_MODEL_DIR = f"{CACHE_PATH}/ensemble_model"

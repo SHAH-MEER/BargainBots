@@ -11,7 +11,7 @@ from src.modal_services.app_config import (
 )
 from src.modal_services.e5_model_base import E5ModelBase
 
-REPO_ID = "lisekarimi/smart-deal-finder-models"
+REPO_ID = "SHAH-MEER/DealFinder"
 
 # Local paths inside Modal volume
 E5_MODEL_DIR = f"{CACHE_PATH}/e5_model"
