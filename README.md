@@ -26,32 +26,6 @@ The system is modular, extensible, and production-grade, with support for cloud-
 
 ---
 
-## 🚀 Deploying on Hugging Face Spaces
-
-You can deploy BargainBots on [Hugging Face Spaces](https://huggingface.co/spaces) for free, using Gradio or Docker. Here’s how:
-
-### Requirements
-- `main.py` (entry point, launches Gradio app)
-- `requirements.txt` (all dependencies listed)
-- (Optional) `Dockerfile` for custom environments
-- `README.md` (project info)
-
-### Steps
-1. **Push your code to a public GitHub repository.**
-2. **Create a new Space:**
-   - Go to [Hugging Face Spaces](https://huggingface.co/spaces).
-   - Click "Create new Space".
-   - Choose Gradio (or Docker if you have a custom Dockerfile).
-   - Fill in the details and link your GitHub repo or upload files directly.
-3. **Configure hardware:**
-   - Select CPU or GPU as needed (GPU for LLMs/ML models).
-4. **App launch:**
-   - Hugging Face will auto-detect `main.py` or `app.py`.
-   - The app should listen on port `7860` (default for Gradio).
-5. **Wait for build & launch:**
-   - The Space will build and deploy automatically.
-   - Access your app at the provided Space URL.
-
 ### Example `requirements.txt`
 ```
 gradio
